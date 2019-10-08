@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Very hard challenge</title>
+    </head>
+    <body>
+        <h1>Thank you for visiting</h1>
+
+    </body>
+    <script>
+        var numberONe = parseInt(prompt('Enter the First Number'))
+        var op = prompt('Enter Operator (+,-,/,*')
+        var numberTwo = parseInt(prompt('Enter the Second Number'))
+    
+    function multiply(a, b){
+       return a * b;
+    }
+     function divide(a, b){
+        return a / b;
+    }
+     function substract(a, b) {
+    //Function block
+       return a - b;
+    }
+    function add(a, b) {
+           return a + b;
+        }
+    
+    if (op === '*') {
+        var result = multiply(numberONe, numberTwo);
+        document.write(numberONe + ' * ' + numberTwo + ' = ' + result );
+    }
+    
+    if (op === '/') {
+        var result = divide(numberONe, numberTwo);
+        document.write (numberONe + ' / ' + numberTwo + ' = ' + result);
+    }
+    if (op === '-') {
+        var result = substract(numberONe, numberTwo);
+        document.write (numberONe + ' - ' + numberTwo + ' = ' + result);
+     }
+     if (op == '+') {
+         var result = add(numberONe, numberTwo);
+         document.write (numberONe + ' + ' + numberTwo + ' = ' + result);
+     }
+    </script>
+</html>
