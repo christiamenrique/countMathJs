@@ -3,4 +3,4 @@ This app was built using HTML and javascript allows you to input a number and mu
 
 ### Download 
 
-* open the terminal and use the git clone command.
+* open the terminal and use the git clone https://github.com/christiamenrique/countMathJs.git.
